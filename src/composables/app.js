@@ -1,3 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
-    console.log("hi");
+    axios
+    .get(" http://localhost:3000/products")
+    .then((res)=>{
+
+    })
 })
